@@ -1,0 +1,115 @@
+.page {
+    background-color: #f7f8f7;
+    color: #484140;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header .footer {
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_invisible {
+    display: none
+}
+
+.header__content .footer__content {
+    width: 100%;
+    max-width: 1148px;
+    margin: 0 auto;
+}
+
+.header__title .footer__title {
+    color: #484140;
+    font-size: 26px;
+}
+
+.main {
+    width: 100%;
+    max-width: 1148px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content {
+
+}
+
+.recomend {
+    width: 200px;
+    flex-direction: column;
+}
+
+.recomend-card {
+    flex-direction: column;
+    align-items: center;
+}
+
+.recomend-card__title {
+    text-align: center;
+}
+
+.recomend-card__price {
+    text-align: center;
+}
+
+.recomend-card__image {
+    width: 200px;
+    height: 200px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f7f8f7;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.main-content__main {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 200px;
+}
+
+.content-area {
+    width: 100%;
+}
+
+.recomend-footer {
+    width: 100%;
+    max-width: 1148px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.recomend-footer__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 492px) {
+    .exercise__string {
+        flex-direction: column;
+    }
+    .exercise__input {
+        width: 100%;
+    }
+    .exercise__example-input {
+        text-align: center;
+    }
+}
